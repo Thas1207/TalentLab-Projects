@@ -1,0 +1,40 @@
+<html>
+<head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+</head>
+    <body>
+
+
+
+<form action="/manufacturers/create-form" method="post"> 
+    <div class="form-group">
+        <label for="name">Manufacturer Name:</label><br> 
+        <input type="text" id="name" name="name" class="form-control"><br> 
+        
+    </div>
+    <div class="form-group">
+        <label for="description">Manufacturer Description:</label> 
+        <input type="text" id="description" name="description" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="image_url">Manufacturer Image URL:</label>
+        <input type="text" id="image" name="image" class="form-control" value="https://via.placeholder.com/150">
+    </div>
+  
+    <button type="submit" class="btn btn-default">Create</button>
+    </form> 
+</body>
+    
+</html>
+    
